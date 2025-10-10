@@ -1,4 +1,4 @@
-package txmodel
+ackage txmodel
 
 import (
 	"github.com/shopspring/decimal"
@@ -21,3 +21,4 @@ type Transaction struct {
 }
 
 func (Transaction) TableName() string { return "transactions" }
+ 
